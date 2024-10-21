@@ -3,50 +3,86 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		58639773EF6EB89977EF1C14 /* Pods_CRUD_Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0DD79238997C5D0A3BA4E78 /* Pods_CRUD_Realm.framework */; };
+		F6384CB82CC2966300235DE4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6384CB72CC2966300235DE4 /* Item.swift */; };
+		F6384CBA2CC296CC00235DE4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6384CB92CC296CC00235DE4 /* Category.swift */; };
+		F6384CBC2CC29BA000235DE4 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6384CBB2CC29BA000235DE4 /* ToDoTableViewController.swift */; };
+		F67C2B892CC2B2E400971B39 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67C2B882CC2B2E400971B39 /* SwipeTableViewController.swift */; };
+		F6AC82812CC293F900CDA71C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AC82782CC293F900CDA71C /* Assets.xcassets */; };
+		F6AC82832CC293F900CDA71C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AC827B2CC293F900CDA71C /* LaunchScreen.storyboard */; };
+		F6AC82842CC293F900CDA71C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AC827D2CC293F900CDA71C /* Main.storyboard */; };
+		F6AC82852CC293F900CDA71C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AC82772CC293F900CDA71C /* AppDelegate.swift */; };
+		F6AC82862CC293F900CDA71C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AC827E2CC293F900CDA71C /* SceneDelegate.swift */; };
+		F6CDD1C02CC2961B006C4665 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDD1BF2CC2961B006C4665 /* HomeTableViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		4E385469E63560CC71BBDCE8 /* Pods-CRUD-Realm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRUD-Realm.release.xcconfig"; path = "Target Support Files/Pods-CRUD-Realm/Pods-CRUD-Realm.release.xcconfig"; sourceTree = "<group>"; };
+		E6F183E67B260A35051C6B1E /* Pods-CRUD-Realm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRUD-Realm.debug.xcconfig"; path = "Target Support Files/Pods-CRUD-Realm/Pods-CRUD-Realm.debug.xcconfig"; sourceTree = "<group>"; };
+		F0DD79238997C5D0A3BA4E78 /* Pods_CRUD_Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRUD_Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6384CB72CC2966300235DE4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F6384CB92CC296CC00235DE4 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		F6384CBB2CC29BA000235DE4 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		F67C2B882CC2B2E400971B39 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		F6AC825F2CC293EA00CDA71C /* CRUD-Realm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CRUD-Realm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6AC82772CC293F900CDA71C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6AC82782CC293F900CDA71C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6AC82792CC293F900CDA71C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6AC827A2CC293F900CDA71C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6AC827C2CC293F900CDA71C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6AC827E2CC293F900CDA71C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6CDD1BF2CC2961B006C4665 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F6AC82712CC293EC00CDA71C /* Exceptions for "CRUD-Realm" folder in "CRUD-Realm" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = F6AC825E2CC293EA00CDA71C /* CRUD-Realm */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F6AC82612CC293EA00CDA71C /* CRUD-Realm */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				F6AC82712CC293EC00CDA71C /* Exceptions for "CRUD-Realm" folder in "CRUD-Realm" target */,
-			);
-			path = "CRUD-Realm";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F6AC825C2CC293EA00CDA71C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58639773EF6EB89977EF1C14 /* Pods_CRUD_Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31B066827B537DD6EB005EA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6F183E67B260A35051C6B1E /* Pods-CRUD-Realm.debug.xcconfig */,
+				4E385469E63560CC71BBDCE8 /* Pods-CRUD-Realm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A9EF90DED70A962B54326435 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0DD79238997C5D0A3BA4E78 /* Pods_CRUD_Realm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6384CB62CC2965400235DE4 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				F6384CB72CC2966300235DE4 /* Item.swift */,
+				F6384CB92CC296CC00235DE4 /* Category.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
 		F6AC82562CC293EA00CDA71C = {
 			isa = PBXGroup;
 			children = (
-				F6AC82612CC293EA00CDA71C /* CRUD-Realm */,
+				F6AC82802CC293F900CDA71C /* CRUD-Realm */,
 				F6AC82602CC293EA00CDA71C /* Products */,
+				31B066827B537DD6EB005EA8 /* Pods */,
+				A9EF90DED70A962B54326435 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +94,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F6AC82802CC293F900CDA71C /* CRUD-Realm */ = {
+			isa = PBXGroup;
+			children = (
+				F6384CB62CC2965400235DE4 /* DataModel */,
+				F6CDD1BE2CC29608006C4665 /* Controllers */,
+				F6AC82772CC293F900CDA71C /* AppDelegate.swift */,
+				F6AC82782CC293F900CDA71C /* Assets.xcassets */,
+				F6AC82792CC293F900CDA71C /* Info.plist */,
+				F6AC827B2CC293F900CDA71C /* LaunchScreen.storyboard */,
+				F6AC827D2CC293F900CDA71C /* Main.storyboard */,
+				F6AC827E2CC293F900CDA71C /* SceneDelegate.swift */,
+			);
+			path = "CRUD-Realm";
+			sourceTree = "<group>";
+		};
+		F6CDD1BE2CC29608006C4665 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F6CDD1BF2CC2961B006C4665 /* HomeTableViewController.swift */,
+				F6384CBB2CC29BA000235DE4 /* ToDoTableViewController.swift */,
+				F67C2B882CC2B2E400971B39 /* SwipeTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,20 +126,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6AC82722CC293EC00CDA71C /* Build configuration list for PBXNativeTarget "CRUD-Realm" */;
 			buildPhases = (
+				3FDD9E4C46AEA65D58D1AC93 /* [CP] Check Pods Manifest.lock */,
 				F6AC825B2CC293EA00CDA71C /* Sources */,
 				F6AC825C2CC293EA00CDA71C /* Frameworks */,
 				F6AC825D2CC293EA00CDA71C /* Resources */,
+				1563145C03A8481EC6D08F89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				F6AC82612CC293EA00CDA71C /* CRUD-Realm */,
-			);
 			name = "CRUD-Realm";
-			packageProductDependencies = (
-			);
 			productName = "CRUD-Realm";
 			productReference = F6AC825F2CC293EA00CDA71C /* CRUD-Realm.app */;
 			productType = "com.apple.product-type.application";
@@ -98,7 +156,8 @@
 					};
 				};
 			};
-			buildConfigurationList = F6AC825A2CC293EA00CDA71C /* Build configuration list for PBXProject "CRUD-Realm" */;
+			buildConfigurationList = F6AC825A2CC293EA00CDA71C /* Build configuration list for PBXProject "DailyTasks" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -107,7 +166,6 @@
 			);
 			mainGroup = F6AC82562CC293EA00CDA71C;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = F6AC82602CC293EA00CDA71C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,30 +180,103 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6AC82812CC293F900CDA71C /* Assets.xcassets in Resources */,
+				F6AC82832CC293F900CDA71C /* LaunchScreen.storyboard in Resources */,
+				F6AC82842CC293F900CDA71C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1563145C03A8481EC6D08F89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CRUD-Realm/Pods-CRUD-Realm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CRUD-Realm/Pods-CRUD-Realm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CRUD-Realm/Pods-CRUD-Realm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FDD9E4C46AEA65D58D1AC93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CRUD-Realm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F6AC825B2CC293EA00CDA71C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6384CB82CC2966300235DE4 /* Item.swift in Sources */,
+				F6384CBC2CC29BA000235DE4 /* ToDoTableViewController.swift in Sources */,
+				F6384CBA2CC296CC00235DE4 /* Category.swift in Sources */,
+				F67C2B892CC2B2E400971B39 /* SwipeTableViewController.swift in Sources */,
+				F6CDD1C02CC2961B006C4665 /* HomeTableViewController.swift in Sources */,
+				F6AC82852CC293F900CDA71C /* AppDelegate.swift in Sources */,
+				F6AC82862CC293F900CDA71C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		F6AC827B2CC293F900CDA71C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6AC827A2CC293F900CDA71C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F6AC827D2CC293F900CDA71C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6AC827C2CC293F900CDA71C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		F6AC82732CC293EC00CDA71C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F183E67B260A35051C6B1E /* Pods-CRUD-Realm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LZ32UK447H;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "CRUD-Realm/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -168,12 +299,14 @@
 		};
 		F6AC82742CC293EC00CDA71C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E385469E63560CC71BBDCE8 /* Pods-CRUD-Realm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LZ32UK447H;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "CRUD-Realm/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -231,7 +364,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -294,7 +427,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -316,7 +449,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F6AC825A2CC293EA00CDA71C /* Build configuration list for PBXProject "CRUD-Realm" */ = {
+		F6AC825A2CC293EA00CDA71C /* Build configuration list for PBXProject "DailyTasks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F6AC82752CC293EC00CDA71C /* Debug */,
