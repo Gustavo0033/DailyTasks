@@ -20,7 +20,7 @@ Um aplicativo de tarefas que permite organizar suas atividades diárias em categ
 
 - Clone este repositório:
   ```bash
-  git clone https://github.com/usuario/nome-do-repositorio.git
+  git clone https://github.com/Gustavo0033/DailyTasks.git
   
 - Abra o projeto no Xcode.
 - Compile e rode o aplicativo no simulador ou em um dispositivo físico.
